@@ -33,7 +33,7 @@ def load_json_file(file_path):
 # JSON 파일 경로
 json_file_path = "breeds.json"
 
-# JSON 파일을 로드하여 데이터를 가져옵니다.
+# JSON 파일을 로드하여 데이터 가져오기
 content = load_json_file(json_file_path)
 
 want_to = """너는 아래 내용을 기반으로 질의응답을 하는 로봇이야.
